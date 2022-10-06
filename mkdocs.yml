@@ -3,8 +3,10 @@ site_name: Yang's Blog
 site_url: https://blog.yyang.in/
 
 nav:
-    - Home: index.md
-    - About: about.md
+  - Home: index.md
+  - Article:
+    - "第一篇文章": article/第一篇文章.md 
+  - About: about.md
 
 theme:
     name: material
