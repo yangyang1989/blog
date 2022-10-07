@@ -1,12 +1,36 @@
 site_name: Yang's Blog
 
 site_url: https://blog.yyang.in/
+repo_url: https://github.com/yangyang1989/blog
+repo_name: Yang's GitHub
+
 
 nav:
-  - Home: index.md
-  - Article:
-    - "第一篇文章": article/第一篇文章.md 
-  - About: about.md
+  - 主页: index.md
+  - 文章:
+    - 第一篇文章: article/第一篇文章.md 
+    - 测试typora: article/测试链接视频.md 
+  - MkDocs中文文档:
+    - 用户指南:
+      - 编写文档: mkdocs/user-guide/writing-your-docs.md
+      - 设置文档样式: mkdocs/user-guide/styling-your-docs.md
+      - 配置文件: mkdocs/user-guide/configuration.md
+      - 部署文档: mkdocs/user-guide/deploying-your-docs.md
+      - 自定义主题: mkdocs/user-guide/custom-themes.md
+      - 插件: mkdocs/user-guide/plugins.md
+    - 关于MkDocs:
+      - 发行说明: mkdocs/about/release-notes.md
+      - 贡献: mkdocs/about/contributing.md
+      - 许可: mkdocs/about/license.md
+  - 关于: about.md
 
 theme:
-    name: material
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+
+
+copyright: Copyright &copy; 2022 <a href="https://blog.yyang.in">Yang's Blog</a>, Maintained by the <a href="/about/release-notes/#maintenance-team">MkDocs Team</a>.
+
+
